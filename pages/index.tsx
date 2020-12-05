@@ -13,7 +13,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to{' '}
-          <Link href="/yumi/activities">
+          <Link href="/fruit/apple/green">
             <a>My Blog</a>
           </Link>
         </h1>
