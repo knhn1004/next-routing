@@ -10,6 +10,9 @@ export const getStaticProps: GetStaticProps = async context => {
   );
 
   return {
+    // only works on production
+    // because getstatic props always runs in dev
+    revalidate: 10,
     props: {
       myFavNum: txt,
     },
